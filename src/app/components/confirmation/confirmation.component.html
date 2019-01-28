@@ -1,0 +1,14 @@
+<ts-card centeredContent="true" aspectRatio="5:3">
+
+  <ts-button
+    tsConfirmation
+    [showProgress]="progress"
+    (clickEvent)="submit()"
+    (cancelled)="cancel($event)"
+    confirmationButtonText="Custom Confirmation Button Text"
+    [explanationText]="explanation"
+  >
+    Click Me!
+  </ts-button>
+
+</ts-card>
